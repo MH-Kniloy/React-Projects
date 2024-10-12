@@ -1,0 +1,511 @@
+/* GLOBAL CSS START  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+/* GLOBAL CSS END  */
+
+
+/* NAVBAR CSS START  */
+#navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 28px;
+  width: 100%;
+}
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 30%;
+}
+.nav-items {
+  width: 70%;
+}
+.nav-items ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-items ul li {
+  margin: 0 60px 0 0;
+}
+.nav-items ul li:last-child {
+  margin: 0 0px 0 0;
+}
+.nav-items ul li a {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.nav-items ul li:first-child a {
+  color: #000;
+}
+.nav-items ul li a:hover {
+  color: #000;
+}
+
+/* NAVBAR CSS END  */
+
+
+/* HERO CSS START  */
+
+#hero {
+  background-image: url(./assets/background.jpg);
+  width: 100%;
+  padding: 424px 0 462px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-wrapper h1 {
+  color: #ffc178;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+}
+.hero-wrapper p {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 104.167% */
+  text-transform: capitalize;
+}
+.hero-wrapper p span {
+  color: #fff;
+  display: block;
+  font-family: "Open Sans";
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px;
+  text-transform: capitalize;
+}
+
+/* HERO CSS END  */
+
+
+/* SECTION-2 CSS START  */
+
+#section-2 {
+  padding: 319px 0 358px 0;
+  background-color: #000;
+}
+.section-2-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 143px;
+}
+.image-part {
+  width: 582px;
+  height: 713px;
+  background-image: url(./assets/valley.png);
+}
+.text-part {
+  width: 582px;
+  height: 713px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-part h6 {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.text-part h2 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.text-part h5 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 228.571% */
+  text-transform: uppercase;
+}
+.text-part p {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.text-part a {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 66px;
+}
+.text-part a:hover {
+  color: #fff;
+}
+
+/* SECTION-2 CSS END  */
+
+
+/* SECTION-3 CSS START  */
+
+#section-3 {
+  padding-bottom: 295px;
+  background-color: #000;
+}
+.section-3-wrapper {
+  width: 1320px;
+  height: 965px;
+  background-image: url(./assets/mountain.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+}
+.section-3-text-part {
+  width: 895px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.section-3-wrapper .section-3-text-part h6 {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.section-3-wrapper .section-3-text-part h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.section-3-wrapper .section-3-text-part h5 {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 213.333% */
+  text-transform: uppercase;
+}
+.section-3-wrapper .section-3-text-part a {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 33px;
+}
+.section-3-wrapper .section-3-text-part a:hover {
+  color: #fff;
+}
+
+/* SECTION-3 CSS END  */
+
+
+/* SECTION-4 CSS START  */
+
+#section-4 {
+  background-color: #000;
+}
+#section-4 .section-4-wrapper {
+  display: flex;
+}
+#section-4 .section-4-wrapper .text-part-culture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+#section-4 .section-4-wrapper .text-part-culture h5 {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+#section-4 .section-4-wrapper .text-part-culture h2 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+#section-4 .section-4-wrapper .text-part-culture h6 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+#section-4 .section-4-wrapper .text-part-culture a {
+  color: #fbd784;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 47px;
+}
+#section-4 .section-4-wrapper .text-part-culture a:hover {
+  color: #fff;
+}
+#section-4 .section-4-wrapper .image-part-culture {
+  padding-bottom: 199px;
+}
+#section-4 .section-4-wrapper .image-part-culture img{
+  margin-left: 50px;
+}
+
+/* SECTION-4 CSS END  */
+
+
+/* FOOTER CSS START  */
+#footer {
+  background-color: #000;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 215px;
+}
+.footer-wrapper .footer-left {
+  width: 50%;
+}
+.footer-wrapper .footer-left h2 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px; /* 136.111% */
+  letter-spacing: -0.3px;
+  text-transform: capitalize;
+  width: 400px;
+  padding-top: 80px;
+  padding-bottom: 36px;
+}
+.footer-wrapper .footer-left a {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.205px;
+  text-transform: capitalize;
+}
+.footer-wrapper .footer-left a:hover {
+  color: #fbd784;
+}
+.footer-wrapper .footer-left .icon {
+  color: #fff;
+  margin-right: 30px;
+  padding-top: 48px;
+}
+.footer-wrapper .footer-left .icon i {
+  margin-right: 30px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.footer-wrapper .footer-left .icon i:hover {
+  color: #fbd784;
+}
+.footer-wrapper .footer-right {
+  width: 50%;
+}
+.footer-wrapper .footer-right .footer-btn {
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-wrapper .footer-right .footer-btn h6 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-transform: capitalize;
+  margin-right: 18px;
+  align-self: center;
+}
+.footer-wrapper .footer-right .footer-btn a {
+  border-radius: 10px;
+  background: #ffa343;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 18px 67px;
+}
+.footer-wrapper .footer-right .footer-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrapper .footer-right .footer-menu .services ul li a {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+  letter-spacing: -0.205px;
+  text-transform: capitalize;
+}
+.footer-wrapper .footer-right .footer-menu .services ul li:first-child a {
+  color: #ffd1a0;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px; /* 0% */
+  letter-spacing: -0.232px;
+  text-transform: capitalize;
+}
+.footer-wrapper .footer-right .footer-menu .services ul li {
+  margin-bottom: 31px;
+}
+.footer-wrapper .footer-right .footer-menu .services ul li:first-child {
+  margin-bottom: 38px;
+}
+.footer-wrapper .footer-right .footer-menu .services ul li a:hover {
+  color: #fbd784;
+}
+.footer-wrapper .footer-right .footer-menu .about ul li a {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+  letter-spacing: -0.205px;
+  text-transform: capitalize;
+}
+.footer-wrapper .footer-right .footer-menu .about ul li:first-child a {
+  color: #ffd1a0;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px; /* 0% */
+  letter-spacing: -0.232px;
+  text-transform: capitalize;
+}
+.footer-wrapper .footer-right .footer-menu .about ul li {
+  margin-bottom: 31px;
+}
+.footer-wrapper .footer-right .footer-menu .about ul li:first-child {
+  margin-bottom: 38px;
+}
+.footer-wrapper .footer-right .footer-menu .about ul li a:hover {
+  color: #fbd784;
+}
+.footer-wrapper .footer-right .footer-menu .help {
+  margin-right: 100px;
+}
+.footer-wrapper .footer-right .footer-menu .help ul li a {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+  letter-spacing: -0.205px;
+  text-transform: capitalize;
+}
+.footer-wrapper .footer-right .footer-menu .help ul li:first-child a {
+  color: #ffd1a0;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px; /* 0% */
+  letter-spacing: -0.232px;
+  text-transform: capitalize;
+}
+.footer-wrapper .footer-right .footer-menu .help ul li {
+  margin-bottom: 31px;
+}
+.footer-wrapper .footer-right .footer-menu .help ul li:first-child {
+  margin-bottom: 38px;
+}
+.footer-wrapper .footer-right .footer-menu .help ul li a:hover {
+  color: #fbd784;
+}
+.footer-bottom {
+  text-align: center;
+}
+.footer-bottom p {
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+/* FOOTER CSS END  */
